@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Template Name: Home Page
@@ -9,12 +9,13 @@
 
 get_header(); ?>
 
-<section class="container py-5" labelledby="hero-heading">
-    <div class="row">
-        <div class="col-12">
-            <h1 id="hero-heading">Hello Woooooorld!!</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, inventore? Excepturi natus doloremque esse suscipit officiis consequatur, ducimus, soluta dolorem, veritatis libero possimus fuga laboriosam nostrum at ipsam a explicabo.</p>
-            <p>Repellendus omnis, quidem ipsa alias iure consequatur quo autem nisi aspernatur, a reprehenderit odit officia dignissimos at illum totam perspiciatis, delectus fugiat quibusdam expedita illo saepe libero. Reprehenderit, accusamus ducimus!</p>
+<section class="container-fluid black-bg py-5 vh-100 full-bg" labelledby="hero-heading" style="background-image: url(<?php echo get_theme_file_uri() ?>/assets/img/abstract-lines-reformat.png);">
+    <div class="container main-content">
+        <div class="m-auto text-center">
+            <img src="<?php echo get_theme_file_uri() ?>/assets/img/Logo-with-background-blur.png" alt="logo">
+        </div>
+        <div class="main-content-text py-4 col-10 m-auto">
+            <p>Here at StellarEdge, we're your gateway to a visually stunning and highly functional digital presence. We specialize in crafting websites and graphics that leave a lasting impression. Our mission is to bring your vision to life in the digital realm, creating unique and captivating online experiences that resonate with your audience.</p>
         </div>
     </div>
 </section>

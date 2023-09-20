@@ -12,7 +12,7 @@
 <body <?php body_class(); ?>>
   <?php wp_body_open(); ?>
 
-  <header class="container-fluid p-0 p-sticky color-1-bg" role="banner">
+  <!-- <header class="container-fluid p-0 p-sticky color-1-bg" role="banner">
     <div class="container py-2">
       <div class="row justify-content-between align-items-center">
         <div class="col-auto">
@@ -39,6 +39,6 @@
       <?php $primary = ['theme_location' => 'primary'];
       wp_nav_menu($primary) ?>
     </nav>
-  </header>
+  </header> -->
 
   <main role="main" style="min-height:75vh;">

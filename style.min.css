@@ -91,6 +91,7 @@ img.full-width-img{width:100%}
 .progress-bar{width:100%;height:17px;border-radius:10px;background-color:crimson;position:relative;overflow:hidden}
 .progress-bar .progress{background-color:crimson;position:absolute;top:0;left:0;height:100%;width:0;-webkit-transition:all 1000ms ease-out;transition:all 1000ms ease-out}
 .white-bg{background-color:#fff}
+.black-bg{background-color:black}
 .color-1-bg{background-color:crimson}
 .color-2-bg{background-color:#4682b4}
 .color-3-bg{background-color:#eee}
@@ -104,6 +105,9 @@ img.full-width-img{width:100%}
 .text-shadow{text-shadow:-5px 5px 0 crimson}
 #close-banner{position:absolute;top:50%;right:15px;-webkit-transform:translateY(-50%);transform:translateY(-50%);cursor:pointer}
 #close-banner:hover{color:#eee}
+.main-content img{width:200px;height:200px;-o-object-fit:contain;object-fit:contain}
+.main-content-text{color:white;text-align:center}
+.main-content-text p{font-size:1.2em}
 header.scroll-down{top:-100%}
 .navigation-menu .menu{list-style:none;margin:0;padding:0}
 .navigation-menu .menu .menu-item{margin:0 15px;display:inline-block}

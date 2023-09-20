@@ -191,6 +191,10 @@ img{
     background-color: #fff;
 }
 
+.black-bg {
+    background-color: black;
+}
+
 .color-1-bg{
     background-color: $color-1;
 }
@@ -247,5 +251,24 @@ img{
     cursor: pointer;
     &:hover{
         color: $color-3;
+    }
+}
+
+.main-content {
+
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+    }
+}
+
+.main-content-text {
+    color: white;
+    text-align: center;
+
+    p {
+        font-size: 1.2em;
     }
 }
