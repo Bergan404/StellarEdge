@@ -106,8 +106,9 @@ img.full-width-img{width:100%}
 #close-banner{position:absolute;top:50%;right:15px;-webkit-transform:translateY(-50%);transform:translateY(-50%);cursor:pointer}
 #close-banner:hover{color:#eee}
 .splide__pagination .is-active{background-color:#6565f3}
-.main-content img{width:200px;height:200px;-o-object-fit:contain;object-fit:contain;position:relative}
-.main-content img::before{content:" "}
+.main-content .logo{width:300px;height:300px;-o-object-fit:contain;object-fit:contain;position:relative}
+.main-content .logo::before{content:" "}
+.main-content img{width:200px;height:200px;-o-object-fit:contain;object-fit:contain}
 .main-content-text{color:white;text-align:center}
 .main-content-text p{font-size:1.2em}
 header.scroll-down{top:-100%}

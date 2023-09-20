@@ -1,6 +1,6 @@
 </main>
 
-<footer class="site-footer color-3-bg container-fluid py-4 text-center">
+<!-- <footer class="site-footer color-3-bg container-fluid py-4 text-center">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
@@ -8,8 +8,8 @@
             </div>
         </div>
     </div>
-</footer>
- 
+</footer> -->
+
 <?php wp_footer(); ?>
 </body>
 </html>
