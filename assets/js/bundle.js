@@ -86,6 +86,6 @@ var splide = new Splide('.splide', {
   perMove: 1,
   arrows: false,
   autoplay: true,
-  interval: 5000
+  interval: 7000
 });
 splide.mount();
