@@ -11,7 +11,7 @@ get_header(); ?>
 
 <section class="container-fluid black-bg py-5 full-bg" labelledby="hero-heading" style="background-image: url(<?php echo get_theme_file_uri() ?>/assets/img/abstract-lines-light.png);" data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
     <div class="container main-content">
-        <div class="m-auto text-center" data-aos="zoom-in"  data-aos-duration="1000">
+        <div class="m-auto text-center" data-aos="zoom-in" data-aos-duration="1000">
             <img class="logo" src="<?php echo get_theme_file_uri() ?>/assets/img/Logo-with-background-blur.png" alt="logo">
         </div>
         <div class="main-content-text py-4 col-10 m-auto" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400" data-aos-duration="3000">
@@ -68,6 +68,9 @@ get_header(); ?>
             <p class="py-3">Contact us today to get started.<br />
                 Your vision, our expertise - together, we'll reach the StellarEdge.</p>
 
+            <div class="col-8 m-auto">
+                <?php the_content() ?>
+            </div>
         </div>
     </div>
 </section>

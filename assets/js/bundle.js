@@ -57,6 +57,17 @@ AOS.init();
 })(jQuery);
 "use strict";
 
+var splide = new Splide('.splide', {
+  type: 'loop',
+  perPage: 1,
+  perMove: 1,
+  arrows: false,
+  autoplay: true,
+  interval: 7000
+});
+splide.mount();
+"use strict";
+
 var buttons = document.querySelectorAll('[id^="tab-button-"]');
 var targetDivs = document.querySelectorAll('[id^="tab-description-"]');
 buttons.forEach(function (btn, index) {
@@ -78,14 +89,3 @@ buttons.forEach(function (btn, index) {
     }
   };
 });
-"use strict";
-
-var splide = new Splide('.splide', {
-  type: 'loop',
-  perPage: 1,
-  perMove: 1,
-  arrows: false,
-  autoplay: true,
-  interval: 7000
-});
-splide.mount();
