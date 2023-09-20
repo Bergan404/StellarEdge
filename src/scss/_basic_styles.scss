@@ -3,6 +3,7 @@
 html {
     overflow-x: hidden;
     box-sizing: border-box;
+    background-color: black;
 }
 
 body {
@@ -286,6 +287,11 @@ img {
         width: 200px;
         height: 200px;
         object-fit: contain;
+        position: relative;
+
+        &::before {
+            content: " ";
+        }
     }
 }
 

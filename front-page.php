@@ -9,7 +9,7 @@
 
 get_header(); ?>
 
-<section class="container-fluid black-bg py-5 vh-100 full-bg" labelledby="hero-heading" style="background-image: url(<?php echo get_theme_file_uri() ?>/assets/img/abstract-lines-reformat.png);" data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
+<section class="container-fluid black-bg py-5 vh-100 full-bg" labelledby="hero-heading" style="background-image: url(<?php echo get_theme_file_uri() ?>/assets/img/abstract-lines-light.png);" data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
     <div class="container main-content">
         <div class="m-auto text-center" data-aos="zoom-in"  data-aos-duration="1000">
             <img src="<?php echo get_theme_file_uri() ?>/assets/img/Logo-with-background-blur.png" alt="logo">
