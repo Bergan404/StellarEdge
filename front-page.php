@@ -21,7 +21,7 @@ get_header(); ?>
             <section class="splide py-3" aria-label="Basic Structure Example">
                 <div class="splide__track">
                     <div class="splide__list">
-                        <div class="splide__slide row align-items-center">
+                        <div class="splide__slide row align-items-center mobile-over-under">
                             <div class="col-3">
                                 <img src="<?php echo get_theme_file_uri() ?>/assets/img/design.png" alt="design">
                             </div>
@@ -29,7 +29,7 @@ get_header(); ?>
                                 <p>Our team of creative minds is here to transform yourideas into pixel-perfect designs. Whether you're a startup looking to establish your online presence or an established business seeking a fresh digital makeover, we're equipped to deliverexceptional design solutions. From elegant logos to eye-catching graphics, we ensure every element reflects your brand's essence.</p>
                             </div>
                         </div>
-                        <div class="splide__slide row align-items-center">
+                        <div class="splide__slide row align-items-center mobile-over-under">
                             <div class="col-3">
                                 <img src="<?php echo get_theme_file_uri() ?>/assets/img/web-design.png" alt="web development">
                             </div>
@@ -37,7 +37,7 @@ get_header(); ?>
                                 <p>A great design deserves an equally great website. Our web development experts work diligently to turn your design concepts into interactive, responsive, and user-friendly websites. We harness the latest technologies to build robust and scalable solutions that meet your specific needs. Our websites are not just beautiful; they're functional and effective, driving engagement and conversions.</p>
                             </div>
                         </div>
-                        <div class="splide__slide row align-items-center">
+                        <div class="splide__slide row align-items-center mobile-over-under">
                             <div class="col-3">
                                 <img src="<?php echo get_theme_file_uri() ?>/assets/img/collab.png" alt="collab">
                             </div>
@@ -45,7 +45,7 @@ get_header(); ?>
                                 <p>At StellarEdge, we believe that collaboration is key. We take the time to understand your goals, your audience, and your unique brand identity. Every project is a partnership, and your vision is our top priority. Together, we'll create a digital masterpiece thatnot only meets but exceeds your expectations.</p>
                             </div>
                         </div>
-                        <div class="splide__slide row align-items-center">
+                        <div class="splide__slide row align-items-center mobile-over-under">
                             <div class="col-3">
                                 <img src="<?php echo get_theme_file_uri() ?>/assets/img/heppy-users.png" alt="Happy Users">
                             </div>
@@ -53,7 +53,7 @@ get_header(); ?>
                                 <p>User experience is at the heart of what we do. Our designs and websites are crafted with the end user in mind, ensuring seamless navigation and intuitive interfaces. We aim to delight your visitors, keeping them engaged and coming back for more.</p>
                             </div>
                         </div>
-                        <div class="splide__slide row align-items-center">
+                        <div class="splide__slide row align-items-center mobile-over-under">
                             <div class="col-3">
                                 <img src="<?php echo get_theme_file_uri() ?>/assets/img/lets-begin.png" alt="lets begin">
                             </div>

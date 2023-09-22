@@ -288,8 +288,9 @@ img {
         object-fit: contain;
         position: relative;
 
-        &::before {
-            content: " ";
+        @include mobile {
+            width: 200px;
+            height: 200px;
         }
     }
 
@@ -306,9 +307,47 @@ img {
 
     p {
         font-size: 1.2em;
+
+        @include md-desktop {
+            font-size: 1em;
+        }
+
+        @include mobile {
+            font-size: .9em;
+        }
     }
 }
 .wpforms-submit {
     background-color: #6565f3 !important;
     width: 100% !important;
+}
+
+.col-10 {
+    @include mobile {
+        width: 100%;
+    }
+}
+
+.col-8 {
+    @include mobile {
+        width: 100%;
+    }
+}
+
+.mobile-over-under {
+    @include sm-desktop {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .col-3 {
+        @include mobile {
+            width: 100%;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
 }
